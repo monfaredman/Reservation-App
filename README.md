@@ -1,73 +1,73 @@
-<p align="center">
-  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
-</p>
+Here’s your `README.md` content written in Markdown style:  
 
-[circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
-[circleci-url]: https://circleci.com/gh/nestjs/nest
+```markdown
+# Reservation App  
 
-  <p align="center">A progressive <a href="http://nodejs.org" target="_blank">Node.js</a> framework for building efficient and scalable server-side applications.</p>
-    <p align="center">
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/v/@nestjs/core.svg" alt="NPM Version" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/l/@nestjs/core.svg" alt="Package License" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/dm/@nestjs/common.svg" alt="NPM Downloads" /></a>
-<a href="https://circleci.com/gh/nestjs/nest" target="_blank"><img src="https://img.shields.io/circleci/build/github/nestjs/nest/master" alt="CircleCI" /></a>
-<a href="https://coveralls.io/github/nestjs/nest?branch=master" target="_blank"><img src="https://coveralls.io/repos/github/nestjs/nest/badge.svg?branch=master#9" alt="Coverage" /></a>
-<a href="https://discord.gg/G7Qnnhy" target="_blank"><img src="https://img.shields.io/badge/discord-online-brightgreen.svg" alt="Discord"/></a>
-<a href="https://opencollective.com/nest#backer" target="_blank"><img src="https://opencollective.com/nest/backers/badge.svg" alt="Backers on Open Collective" /></a>
-<a href="https://opencollective.com/nest#sponsor" target="_blank"><img src="https://opencollective.com/nest/sponsors/badge.svg" alt="Sponsors on Open Collective" /></a>
-  <a href="https://paypal.me/kamilmysliwiec" target="_blank"><img src="https://img.shields.io/badge/Donate-PayPal-ff3f59.svg"/></a>
-    <a href="https://opencollective.com/nest#sponsor"  target="_blank"><img src="https://img.shields.io/badge/Support%20us-Open%20Collective-41B883.svg" alt="Support us"></a>
-  <a href="https://twitter.com/nestframework" target="_blank"><img src="https://img.shields.io/twitter/follow/nestframework.svg?style=social&label=Follow"></a>
-</p>
-  <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
-  [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
+A modern reservation application built with **NestJS** in a **microservices architecture**, designed for scalability and reliability.  
 
-## Description
+## Features  
+- **Authentication**: Secure user authentication and role-based authorization.  
+- **Payment Integration**: Effortless and secure payment processing using **Stripe**.  
+- **Email Notifications**: Automated email alerts for reservations and updates.  
+- **Microservices Architecture**: Modular and scalable services for optimal performance.  
+- **Dockerized Environment**: Fully containerized setup for easy deployment and development.  
+- **MongoDB**: Robust NoSQL database for storing application data.  
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+## Tech Stack  
+- **NestJS**: Backend framework  
+- **MongoDB**: Database  
+- **Stripe**: Payment processing  
+- **Docker**: Containerization  
+- **Microservices**: Decoupled services for scalability  
 
-## Installation
+## Getting Started  
 
+### Prerequisites  
+- Install **Docker** and **Docker Compose** on your system.  
+
+### Running the App  
+
+1. **Clone the repository**:  
+   ```bash
+   git clone https://github.com/your-username/reservation-app.git  
+   cd reservation-app  
+   ```  
+
+2. **Start the application using Docker Compose**:  
+   ```bash
+   docker-compose up --build  
+   ```  
+
+3. **Access the application**:  
+   - The API will be available at `http://localhost:<API_PORT>`  
+   - The database will run at `http://localhost:<DB_PORT>`  
+
+### Stopping the App  
+To stop and remove all running containers:  
 ```bash
-$ npm install
-```
+docker-compose down  
+```  
 
-## Running the app
+### Additional Docker Commands  
 
-```bash
-# development
-$ npm run start
+- **Rebuild containers** (e.g., after modifying dependencies):  
+  ```bash
+  docker-compose up --build  
+  ```  
 
-# watch mode
-$ npm run start:dev
+- **View logs** for troubleshooting:  
+  ```bash
+  docker-compose logs -f  
+  ```  
 
-# production mode
-$ npm run start:prod
-```
+- **Access a running container's shell**:  
+  ```bash
+  docker exec -it <container_name> sh  
+  ```  
 
-## Test
+---
 
-```bash
-# unit tests
-$ npm run test
+Easily customizable and extendable for various reservation-based businesses! 🎉  
+```  
 
-# e2e tests
-$ npm run test:e2e
-
-# test coverage
-$ npm run test:cov
-```
-
-## Support
-
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
-
-## Stay in touch
-
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
-
-## License
-
-Nest is [MIT licensed](LICENSE).
+Copy this into your `README.md` file, and you're good to go!
