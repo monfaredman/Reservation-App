@@ -1,6 +1,7 @@
-Here’s your `README.md` content written in Markdown style:  
+Here’s an extended GitHub description with Docker commands to create a `README.md` file:  
 
-```markdown
+---
+
 # Reservation App  
 
 A modern reservation application built with **NestJS** in a **microservices architecture**, designed for scalability and reliability.  
@@ -14,11 +15,11 @@ A modern reservation application built with **NestJS** in a **microservices arch
 - **MongoDB**: Robust NoSQL database for storing application data.  
 
 ## Tech Stack  
-- **NestJS**: Backend framework  
-- **MongoDB**: Database  
-- **Stripe**: Payment processing  
-- **Docker**: Containerization  
-- **Microservices**: Decoupled services for scalability  
+- **NestJS**: Backend framework.  
+- **MongoDB**: Database.  
+- **Stripe**: Payment processing.  
+- **Docker**: Containerization.  
+- **Microservices**: Decoupled services for scalability.  
 
 ## Getting Started  
 
@@ -28,46 +29,43 @@ A modern reservation application built with **NestJS** in a **microservices arch
 ### Running the App  
 
 1. **Clone the repository**:  
-   ```bash
+   ```bash  
    git clone https://github.com/your-username/reservation-app.git  
    cd reservation-app  
    ```  
 
 2. **Start the application using Docker Compose**:  
-   ```bash
+   ```bash  
    docker-compose up --build  
    ```  
 
 3. **Access the application**:  
-   - The API will be available at `http://localhost:<API_PORT>`  
-   - The database will run at `http://localhost:<DB_PORT>`  
+   - The API will be available at `http://localhost:<API_PORT>`.  
+   - The database will run at `http://localhost:<DB_PORT>`.  
 
 ### Stopping the App  
 To stop and remove all running containers:  
-```bash
+```bash  
 docker-compose down  
 ```  
 
 ### Additional Docker Commands  
 
 - **Rebuild containers** (e.g., after modifying dependencies):  
-  ```bash
+  ```bash  
   docker-compose up --build  
   ```  
 
 - **View logs** for troubleshooting:  
-  ```bash
+  ```bash  
   docker-compose logs -f  
   ```  
 
 - **Access a running container's shell**:  
-  ```bash
+  ```bash  
   docker exec -it <container_name> sh  
   ```  
 
 ---
 
 Easily customizable and extendable for various reservation-based businesses! 🎉  
-```  
-
-Copy this into your `README.md` file, and you're good to go!
